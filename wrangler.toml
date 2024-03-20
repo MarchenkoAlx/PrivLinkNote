@@ -1,0 +1,11 @@
+name = "sec2link"
+main = "index.js"
+compatibility_date = "2022-05-03"
+node_compat = true
+
+vars = { IV = "4fd0d17c31b86324159c666cd63ffd05" }
+
+[[d1_databases]]
+binding = "db" # i.e. available in your Worker on env.DB
+database_name = "privlink"
+database_id = "e346f531-73a8-4524-8443-331c4fc2b841"
