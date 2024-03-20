@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PrivLinkNote",
   "version": "1.0.0",
-  "description": "PrivLinkNote is a browser extension that allows you to share links privately with your сolleagues.",
+  "description": "PrivLinkNote is a browser extension that allows you to share link notes privately with your сolleagues.",
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": "images/icon-16.png"
