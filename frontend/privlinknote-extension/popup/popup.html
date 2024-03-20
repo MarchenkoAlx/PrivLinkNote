@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <h1 class="title">Priv Link Note</h1>
+  <div>
+    <div class="result-message" id="result-message"></div>
+    <form id="privlink-form" class="privlink-form" method="POST" novalidate>
+
+      <input type="text" id="linkCode" name="linkCode" placeholder="Your link code">
+      <button id="getLink" type="button">Get Link Content</button>
+
+      <textarea id="content" name="content" rows="12" placeholder="Paste your content" required></textarea>
+      <!-- check box to show password -->
+      <div class="input-group">
+        <input type="checkbox" id="show-password" name="show-password" value="show-password">
+        <label for="show-password">Set password</label>
+      </div>
+      <div id="password-inputs" class="password-inputs">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+      </div>
+      <input type="submit" value="Create Link">
+    </form>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

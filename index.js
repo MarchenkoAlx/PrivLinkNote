@@ -40,7 +40,7 @@ router.post('/privlink/create', async (req, env, ctx) => {
 	try {
 		let { content, password } = await req.json();
 
-		if (!content || !content.match(/^[\w\s]+$/)) {
+		if (!content) {
 			return error(400, { status: 'Invalid content' });
 		}
 
@@ -104,7 +104,7 @@ router.post('/:shortLink', async (req, env, ctx) => {
 		}
 
 		if (link.password && link.password !== hashedPassword) {
-			return error(401, { status: 'Unauthorized' });
+			return error(401, { status: 'Invalid password' });
 		}
 
 		const content = await decrypt(link.content, key, iv);

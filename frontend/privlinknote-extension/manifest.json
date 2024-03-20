@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "PrivLinkNote",
+  "version": "1.0",
+  "description": "PrivLinkNote is a browser extension that allows you to share links privately with your сolleagues.",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "host_permissions": [
+    "https://sec2link.maappdev.workers.dev/*"
+  ],
+  "permissions": []
+}

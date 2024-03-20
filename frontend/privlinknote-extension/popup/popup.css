@@ -1,0 +1,116 @@
+:root {
+  --bg-color: #78480e;
+  --text-color: #fce301;
+}
+body {
+  min-width: 500px; /* your desired width */
+  vertical-align: middle;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+.privlink-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.privlink-form input,
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: content-box;
+  outline: none;
+  background: #fff9d5cc;
+  border: none;
+}
+
+.privlink-form input[type="checkbox"] {
+  width: auto;
+}
+
+.privlink-form .input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.privlink-form .input-group label {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.privlink-form input[type="submit"] {
+  margin: 20px 0;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.privlink-form button {
+	padding: 10px;
+  box-sizing: content-box;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+	width: 100%;
+}
+.privlink-form .password-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  width: 100%;
+}
+
+.result-message {
+  padding: 10px 10px;
+  background: #00d7f8cc;
+  margin: 0 10px;
+  font-size: 1rem;
+  color: #fff;
+	display: none;
+  font-weight: 400;
+}
+.result-message a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.result-message button {
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
