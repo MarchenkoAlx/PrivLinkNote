@@ -41,11 +41,11 @@ router.post('/privlink/create', async (req, env, ctx) => {
 		let { content, password } = await req.json();
 
 		if (!content) {
-			return error(400, { status: 'Invalid content' });
+			return error(400, { status: 'Invalid_content' });
 		}
 
 		if (password && !password.match(/^[a-zA-Z0-9@#!~^]+$/)) {
-			return error(400, { status: 'Invalid password' });
+			return error(400, { status: 'Invalid_password' });
 		}
 
 		if (password) {
@@ -100,11 +100,11 @@ router.post('/:shortLink', async (req, env, ctx) => {
 		const link = results[0];
 
 		if (!link) {
-			return error(404, { status: 'Link not found' });
+			return error(404, { status: 'Link_not_found' });
 		}
 
 		if (link.password && link.password !== hashedPassword) {
-			return error(401, { status: 'Invalid password' });
+			return error(401, { status: 'Invalid_password' });
 		}
 
 		const content = await decrypt(link.content, key, iv);
@@ -117,7 +117,7 @@ router.post('/:shortLink', async (req, env, ctx) => {
 	}
 });
 
-router.all('*', () => new Response('Page not found', { status: 404 }));
+router.all('*', () => new Response('Page_not_found', { status: 404 }));
 
 export default {
 	fetch: (request, ...args) =>

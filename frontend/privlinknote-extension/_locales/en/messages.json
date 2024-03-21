@@ -1,6 +1,6 @@
 {
 	"title": {
-		"message": "Priv Link Note"
+		"message": "PrivLinkNote"
 	},
 	"description": {
 		"message": "PrivLinkNote is a browser extension that allows you to share link notes privately with your сolleagues."
@@ -41,5 +41,11 @@
 	},
 	"Link_not_found": {
 		"message": "Link not found"
+	},
+	"Link_copied_to_clipboard": {
+		"message": "Link copied to clipboard"
+	},
+	"Your_short_code": {
+		"message": "Your short code"
 	}
 }

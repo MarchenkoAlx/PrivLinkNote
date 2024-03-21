@@ -1,6 +1,6 @@
 {
 	"title": {
-		"message": "Priv Link Note"
+		"message": "PrivLinkNote"
 	},
 	"description": {
 		"message": "PrivLinkNote это расширение для браузера, которое позволяет вам делиться заметками по ссылкам в частном порядке со своими коллегами."
@@ -40,5 +40,11 @@
 	},
 	"Link_not_found": {
 		"message": "Ссылка не найдена"
+	},
+	"Link_copied_to_clipboard": {
+		"message": "Ссылка скопирована в буфер обмена"
+	},
+	"Your_short_code": {
+		"message": "Ваш короткий код"
 	}
 }
