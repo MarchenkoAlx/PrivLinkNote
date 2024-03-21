@@ -1,0 +1,44 @@
+{
+	"title": {
+		"message": "Priv Link Note"
+	},
+	"description": {
+		"message": "PrivLinkNote это расширение для браузера, которое позволяет вам делиться заметками по ссылкам в частном порядке со своими коллегами."
+	},
+	"Get_Link_Content": {
+		"message": "Получить содержимое ссылки"
+	},
+	"Set_password": {
+		"message": "Установить пароль"
+	},
+	"Your_link_code": {
+		"message": "Ваш код ссылки"
+	},
+	"Paste_your_content": {
+		"message": "Вставьте ваше содержимое"
+	},
+	"Password": {
+		"message": "Пароль"
+	},
+	"Confirm_Password": {
+		"message": "Подтвердите пароль"
+	},
+	"Create_Link": {
+		"message": "Создать ссылку"
+	},
+	"Link": {
+		"message": "Ссылка"
+	},
+	"Copy": {
+		"message": "Копировать"
+	},
+	"Invalid_content": {
+		"message": "Недопустимое содержимое"
+	},
+	"Invalid_password": {
+		"message": "Недопустимый пароль"
+	},
+	"Link_not_found": {
+		"message": "Ссылка не найдена"
+	}
+}

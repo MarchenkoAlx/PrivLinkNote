@@ -1,0 +1,45 @@
+{
+	"title": {
+		"message": "Priv Link Note"
+	},
+	"description": {
+		"message": "PrivLinkNote is a browser extension that allows you to share link notes privately with your сolleagues."
+	},
+	"Get_Link_Content": {
+		"message": "Get Link Content"
+	},
+	"Set_password": {
+		"message": "Set password"
+	},
+
+	"Your_link_code": {
+		"message": "Your link code"
+	},
+	"Paste_your_content": {
+		"message": "Paste your content"
+	},
+	"Password": {
+		"message": "Password"
+	},
+	"Confirm_Password": {
+		"message": "Confirm Password"
+	},
+	"Create_Link": {
+		"message": "Create Link"
+	},
+	"Link": {
+		"message": "Link"
+	},
+	"Copy": {
+		"message": "Copy"
+	},
+	"Invalid_content": {
+		"message": "Invalid content"
+	},
+	"Invalid_password": {
+		"message": "Invalid password"
+	},
+	"Link_not_found": {
+		"message": "Link not found"
+	}
+}
